@@ -1,0 +1,4 @@
+Nota Bene:
+Il programma accetta un file composto da massimo 4096 caratteri, il resto non verrà considerato.
+Il file di configurazione degli operandi non deve avere righe vuote alla fine.
+Le write hanno come dimensione massima per via della sprintf 4096 caratteri.

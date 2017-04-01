@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.12"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Elaborato IPC: Riferimenti per il file main.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Elaborato IPC
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Davide Imola - VR386238</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.12 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,'Cerca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Composti</a> &#124;
+<a href="#define-members">Definizioni</a> &#124;
+<a href="#func-members">Funzioni</a>  </div>
+  <div class="headertitle">
+<div class="title">Riferimenti per il file main.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Calcolatrice in IPC, con comunicazione tra padre e figlio.  
+<a href="#details">Continua...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;fcntl.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;sys/types.h&gt;</code><br />
+<code>#include &lt;sys/ipc.h&gt;</code><br />
+<code>#include &lt;sys/shm.h&gt;</code><br />
+<code>#include &lt;sys/sem.h&gt;</code><br />
+<code>#include &lt;sys/time.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="mylib_8h_source.html">mylib.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Composti</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_operation.html">Operation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struttura dati per l'invio delle operazioni.  <a href="struct_operation.html#details">Continua...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Definizioni</h2></td></tr>
+<tr class="memitem:aad9ae913bdfab20dd94ad04ee2d5b045"><td class="memItemLeft" align="right" valign="top"><a id="aad9ae913bdfab20dd94ad04ee2d5b045"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#aad9ae913bdfab20dd94ad04ee2d5b045">DATA</a>&#160;&#160;&#160;&quot;data.txt&quot;</td></tr>
+<tr class="memdesc:aad9ae913bdfab20dd94ad04ee2d5b045"><td class="mdescLeft">&#160;</td><td class="mdescRight">File di configurazione. <br /></td></tr>
+<tr class="separator:aad9ae913bdfab20dd94ad04ee2d5b045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c939ffea0f34a0211837f4dbecee0a"><td class="memItemLeft" align="right" valign="top"><a id="a62c939ffea0f34a0211837f4dbecee0a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a62c939ffea0f34a0211837f4dbecee0a">RESULT</a>&#160;&#160;&#160;&quot;results.txt&quot;</td></tr>
+<tr class="memdesc:a62c939ffea0f34a0211837f4dbecee0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">File di output dei risultati. <br /></td></tr>
+<tr class="separator:a62c939ffea0f34a0211837f4dbecee0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00bfb46347d26fdc58568fe1ab5fa5b"><td class="memItemLeft" align="right" valign="top"><a id="ac00bfb46347d26fdc58568fe1ab5fa5b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ac00bfb46347d26fdc58568fe1ab5fa5b">STDIN</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:ac00bfb46347d26fdc58568fe1ab5fa5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard di Input. <br /></td></tr>
+<tr class="separator:ac00bfb46347d26fdc58568fe1ab5fa5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8875037d0772a4fc34516f1e03d7e238"><td class="memItemLeft" align="right" valign="top"><a id="a8875037d0772a4fc34516f1e03d7e238"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a8875037d0772a4fc34516f1e03d7e238">STDOUT</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a8875037d0772a4fc34516f1e03d7e238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard di Output. <br /></td></tr>
+<tr class="separator:a8875037d0772a4fc34516f1e03d7e238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad974fe981249f5e84fbf1683b012c9f8"><td class="memItemLeft" align="right" valign="top"><a id="ad974fe981249f5e84fbf1683b012c9f8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ad974fe981249f5e84fbf1683b012c9f8">BUFLEN</a>&#160;&#160;&#160;4096</td></tr>
+<tr class="memdesc:ad974fe981249f5e84fbf1683b012c9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grandezza del buffer per la lettura del file. <br /></td></tr>
+<tr class="separator:ad974fe981249f5e84fbf1683b012c9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funzioni</h2></td></tr>
+<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
+<tr class="memdesc:a840291bc02cba5474a4cb46a9b9566fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione principale del programma.  <a href="#a840291bc02cba5474a4cb46a9b9566fe">Continua...</a><br /></td></tr>
+<tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrizione dettagliata</h2>
+<div class="textblock"><p>Calcolatrice in IPC, con comunicazione tra padre e figlio. </p>
+<p>Si vuole realizzare un programma in C che utilizzi le system call (IPC), ove possibile, per implementare lo scheletro di un simulatore di calcolo parallelo. Il progetto deve essere commentato in formato Doxygen, e corredato da un file di configurazione per Doxygen, e da uno script Makefile per la compilazione. Inoltre si devono allegare al progetto anche eventuali file di supporto. Il programma dovrà leggere un file di configurazione, contenente:</p><ol type="1">
+<li>Il numero di processi di calcolo parallelo.</li>
+<li>I dati di computazione. </li>
+</ol>
+</div><h2 class="groupheader">Documentazione delle funzioni</h2>
+<a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione principale del programma. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data.txt</td><td>File di configurazione. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>results.txt File di output di risultati. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.12
+</small></address>
+</body>
+</html>
